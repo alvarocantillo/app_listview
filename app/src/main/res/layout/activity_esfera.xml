@@ -8,14 +8,14 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        tools:context="com.example.usuario.tallerlistview.Rectangulo"
+        tools:context="com.example.usuario.tallerlistview.Esfera"
         >
 
         <TextView
             android:id="@+id/textView9"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/rectangulo"
+            android:text="@string/esfera"
             android:textAlignment="center"
             android:textSize="30sp"
             android:textStyle="bold" />
@@ -30,7 +30,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="TextView" />
+            android:text="@string/radio_esfera" />
 
         <EditText
             android:id="@+id/editText2"
@@ -52,7 +52,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="TextView" />
+            android:text="@string/altura_esfera" />
 
         <EditText
             android:id="@+id/editText3"
@@ -84,3 +84,4 @@
             android:text="@string/borrar" />
     </LinearLayout>
 </LinearLayout>
+

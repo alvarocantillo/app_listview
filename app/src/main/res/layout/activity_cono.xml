@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-
     <LinearLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -8,14 +7,13 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        tools:context="com.example.usuario.tallerlistview.Rectangulo"
-        >
+        tools:context="com.example.usuario.tallerlistview.Cono">
 
         <TextView
             android:id="@+id/textView9"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/rectangulo"
+            android:text="@string/cono"
             android:textAlignment="center"
             android:textSize="30sp"
             android:textStyle="bold" />
@@ -30,7 +28,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="TextView" />
+            android:text="@string/radio_cono" />
 
         <EditText
             android:id="@+id/editText2"
@@ -52,7 +50,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="TextView" />
+            android:text="@string/altura_cono" />
 
         <EditText
             android:id="@+id/editText3"
@@ -84,3 +82,4 @@
             android:text="@string/borrar" />
     </LinearLayout>
 </LinearLayout>
+

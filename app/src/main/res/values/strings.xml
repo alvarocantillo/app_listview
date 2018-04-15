@@ -11,4 +11,22 @@
     <string name="valor_del_lado">Valor del lado</string>
     <string name="calcular">Calcular</string>
     <string name="borrar">Borrar</string>
+    <string name="triangulo">TRIÁNGULO</string>
+    <string name="base">Base</string>
+    <string name="altura">Altura</string>
+    <string name="rectangulo">RECTÁNGULO</string>
+    <string name="circulo">CÍRCULO</string>
+    <string name="radio">RADIO</string>
+    <string name="cubo">CUBO</string>
+    <string name="cono">CONO</string>
+    <string name="radio_cono">Radio</string>
+    <string name="altura_cono">Altura</string>
+    <string name="radio_cubo">Radio</string>
+    <string name="altura_cubo">Altura</string>
+    <string name="esfera">ESFERA</string>
+    <string name="radio_esfera">Radio</string>
+    <string name="altura_esfera">Altura</string>
+    <string name="cilindro">CILINDRO</string>
+    <string name="radio_cilindro">Radio</string>
+    <string name="altrura_cilindro">Altura</string>
 </resources>
