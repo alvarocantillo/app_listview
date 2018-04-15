@@ -1,6 +1,14 @@
 <resources>
-    <string name="app_name">taller listview</string>
+    <string name="app_name">LISTVIEW</string>
     <string name="opciones">OPCIONES</string>
     <string name="areas">AREAS</string>
     <string name="volumenes">VOLÚMENES</string>
+    <string name="no">No</string>
+    <string name="operacion">Operación</string>
+    <string name="datos">Datos</string>
+    <string name="resultado">Resultado</string>
+    <string name="cuadrado">CUADRADO</string>
+    <string name="valor_del_lado">Valor del lado</string>
+    <string name="calcular">Calcular</string>
+    <string name="borrar">Borrar</string>
 </resources>

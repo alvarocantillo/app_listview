@@ -1,28 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 
-    <TableLayout
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
-        xmlns:tools="http://schemas.android.com/tools"
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="0dp"
+    tools:context="com.example.usuario.tallerlistview.Registro">
+
+    <TableRow
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context="com.example.usuario.tallerlistview.Registro">
+        android:layout_marginTop="20dp">
 
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/no" />
 
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/operacion" />
 
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/datos" />
 
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" />
-    </TableLayout>
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/resultado" />
+    </TableRow>
+
+</TableLayout>
 
