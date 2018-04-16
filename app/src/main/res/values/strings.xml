@@ -29,4 +29,21 @@
     <string name="cilindro">CILINDRO</string>
     <string name="radio_cilindro">Radio</string>
     <string name="altrura_cilindro">Altura</string>
+    <string-array name="opciones1">
+        <item>@string/areas</item>
+        <item>@string/volumenes</item>
+        <item>@string/opciones</item>
+    </string-array>
+    <string-array name="opciones2">
+        <item>@string/cuadrado</item>
+        <item>@string/rectangulo</item>
+        <item>@string/triangulo</item>
+        <item>@string/circulo</item>
+    </string-array>
+    <string-array name="opciones3">
+        <item>@string/esfera</item>
+        <item>@string/cilindro</item>
+        <item>@string/cono</item>
+        <item>@string/cubo</item>
+    </string-array>
 </resources>

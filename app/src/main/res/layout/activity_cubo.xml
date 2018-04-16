@@ -31,13 +31,12 @@
             android:text="@string/altura_cubo" />
 
         <EditText
-            android:id="@+id/editText2"
+            android:id="@+id/txt_altura_cubo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:ems="10"
-            android:inputType="textPersonName"
-            android:text="Name" />
+            android:inputType="numberDecimal" />
     </LinearLayout>
 
     <LinearLayout
@@ -50,6 +49,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:onClick="guardar_acubo"
             android:text="@string/calcular" />
 
         <Button
@@ -57,6 +57,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:onClick="limpiar_cubo"
             android:text="@string/borrar" />
     </LinearLayout>
 </LinearLayout>

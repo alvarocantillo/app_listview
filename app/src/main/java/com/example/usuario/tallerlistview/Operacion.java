@@ -6,25 +6,15 @@ import java.util.ArrayList;
  * Created by android on 09/04/2018.
  */
 
-public class Operaciones {
-private int numero;
+public class Operacion {
 private String nombre;
 private String datos;
-private double resultado;
+private String resultado;
 
-    public Operaciones(int numero, String nombre, String datos, double resultado) {
-        this.numero = numero;
+    public Operacion(String nombre, String datos, String resultado) {
         this.nombre = nombre;
         this.datos = datos;
         this.resultado = resultado;
-    }
-
-    public int getNumero() {
-        return numero;
-    }
-
-    public void setNumero(int numero) {
-        this.numero = numero;
     }
 
     public String getNombre() {
@@ -43,11 +33,15 @@ private double resultado;
         this.datos = datos;
     }
 
-    public double getResultado() {
+    public String getResultado() {
         return resultado;
     }
 
-    public void setResultado(double resultado) {
+    public void setResultado(String resultado) {
         this.resultado = resultado;
+    }
+
+    public void guardar(){
+        Datos.guardar(this);
     }
 }

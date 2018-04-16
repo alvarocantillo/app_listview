@@ -31,13 +31,12 @@
             android:text="@string/radio_cono" />
 
         <EditText
-            android:id="@+id/editText2"
+            android:id="@+id/txt_radio_cono"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:ems="10"
-            android:inputType="textPersonName"
-            android:text="Name" />
+            android:inputType="numberDecimal" />
     </LinearLayout>
 
     <LinearLayout
@@ -53,13 +52,12 @@
             android:text="@string/altura_cono" />
 
         <EditText
-            android:id="@+id/editText3"
+            android:id="@+id/txt_altura_cono"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:ems="10"
-            android:inputType="textPersonName"
-            android:text="Name" />
+            android:inputType="numberDecimal" />
     </LinearLayout>
 
     <LinearLayout
@@ -72,6 +70,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:onClick="guardar_vcono"
             android:text="@string/calcular" />
 
         <Button
@@ -79,6 +78,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:onClick="limpiar_vcono"
             android:text="@string/borrar" />
     </LinearLayout>
 </LinearLayout>

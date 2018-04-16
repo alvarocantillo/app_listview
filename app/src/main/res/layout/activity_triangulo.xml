@@ -32,7 +32,7 @@
             android:text="@string/base" />
 
         <EditText
-            android:id="@+id/editText2"
+            android:id="@+id/txt_base_trian"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -53,7 +53,7 @@
             android:text="@string/altura" />
 
         <EditText
-            android:id="@+id/editText4"
+            android:id="@+id/txt_altura_trian"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -71,6 +71,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:onClick="guardar_atriangulo"
             android:text="@string/calcular" />
 
         <Button
@@ -78,6 +79,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:onClick="limpiar_triangulo"
             android:text="@string/borrar" />
     </LinearLayout>
 </LinearLayout>
