@@ -29,6 +29,8 @@
     <string name="cilindro">CILINDRO</string>
     <string name="radio_cilindro">Radio</string>
     <string name="altrura_cilindro">Altura</string>
+    <string name="error_1">Ingrese los datos</string>
+    <string name="error_2">Ingrese un numero mayor que cero</string>
     <string-array name="opciones1">
         <item>@string/areas</item>
         <item>@string/volumenes</item>

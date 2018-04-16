@@ -1,5 +1,6 @@
 package com.example.usuario.tallerlistview;
 
+import android.content.res.Resources;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -9,25 +10,28 @@ import android.widget.Toast;
 public class Cono extends AppCompatActivity {
     private EditText txtradiocono;
     private EditText txtalturacono;
-
+    private Resources recursos;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cono);
         txtalturacono=findViewById(R.id.txt_altura_cono);
         txtradiocono=findViewById(R.id.txt_radio_cono);
+        recursos = this.getResources();
     }
     public double calcular_vcono(double num, double num2){
         double fin=(3.14)*(num*num)*num2;
         return fin;
     }
     public void guardar_vcono(View V){
+        if (validar()==true){
         double res= calcular_vcono(Double.parseDouble(txtradiocono.getText().toString()),Double.parseDouble(txtalturacono.getText().toString()));
         String mos=""+res;
         String op="Volumen del Cono",dato="Radio: "+txtradiocono.getText().toString()+"Altura: "+txtalturacono.getText().toString();
         Operacion o= new Operacion(op,dato,mos);
         o.guardar();
         Toast.makeText(getApplicationContext(),"El resultado es: "+res,Toast.LENGTH_SHORT).show();
+        }
     }
 
     public void limpiar_vcono(View V){
@@ -37,5 +41,30 @@ public class Cono extends AppCompatActivity {
     public void borrar_vcono(){
         txtradiocono.setText("");
         txtalturacono.setText("");
+    }
+
+    public boolean validar() {
+        if (txtradiocono.getText().toString().isEmpty()) {
+            txtradiocono.requestFocus();
+            txtradiocono.setError(recursos.getString(R.string.error_1));
+            return false;
+        }
+        if (txtalturacono.getText().toString().isEmpty()) {
+            txtalturacono.requestFocus();
+            txtalturacono.setError(recursos.getString(R.string.error_1));
+            return false;
+        }
+        if (Double.parseDouble(txtradiocono.getText().toString()) < 1) {
+            txtradiocono.requestFocus();
+            txtradiocono.setError(recursos.getString(R.string.error_2));
+            return false;
+        }
+        if (Double.parseDouble(txtalturacono.getText().toString()) < 1) {
+            txtalturacono.requestFocus();
+            txtalturacono.setError(recursos.getString(R.string.error_2));
+            return false;
+        }
+
+        return true;
     }
 }
