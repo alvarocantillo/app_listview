@@ -18,7 +18,7 @@ private Operacion operacion;
         txtladoc=findViewById(R.id.txt_ladoc);
         recursos = this.getResources();
     }
-    public double calcular_acuadrado(double num){
+    public static double calcular_acuadrado(double num){
         num=num*num;
         return num;
     }

@@ -19,7 +19,7 @@ public class Rectangulo extends AppCompatActivity {
         txtbase=findViewById(R.id.txt_base_rectangulo);
         recursos = this.getResources();
     }
-    public double calcular_arectangulo(double num,double num2){
+    public static double calcular_arectangulo(double num,double num2){
         double fin=num*num2;
         return fin;
     }

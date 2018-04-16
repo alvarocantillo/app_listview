@@ -18,7 +18,7 @@ private EditText txtradio;
         txtradio = findViewById(R.id.txt_radio_circulo);
         recursos = this.getResources();
     }
-    public double calcular_acirculo(double num){
+    public static double calcular_acirculo(double num){
         num=(num*num)*(3.14);
         return num;
     }

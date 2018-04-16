@@ -21,7 +21,7 @@ public class Cilindro extends AppCompatActivity {
         recursos = this.getResources();
     }
 
-    public double calcular_vcilindro(double num, double num2) {
+    public static double calcular_vcilindro(double num, double num2) {
         double fin = (3.14) * (num * num) * num2;
         return fin;
     }

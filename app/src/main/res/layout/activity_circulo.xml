@@ -59,8 +59,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:onClick="limpiar_circulo"
-            android:text="Button"
-            tools:text="@string/borrar" />
+            android:text="@string/borrar" />
     </LinearLayout>
 
 </LinearLayout>

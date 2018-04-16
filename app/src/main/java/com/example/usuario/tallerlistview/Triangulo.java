@@ -19,7 +19,7 @@ public class Triangulo extends AppCompatActivity {
         txtbaset=findViewById(R.id.txt_base_trian);
         recursos = this.getResources();
     }
-    public double calcular_atriangulo(double num,double num2){
+    public static double calcular_atriangulo(double num,double num2){
         double fin=(num*num2)/2;
         return fin;
     }

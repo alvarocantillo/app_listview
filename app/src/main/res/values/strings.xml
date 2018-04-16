@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">LISTVIEW</string>
-    <string name="opciones">OPCIONES</string>
+    <string name="opciones">OPERACIONES REALIZADAS</string>
     <string name="areas">AREAS</string>
     <string name="volumenes">VOLÚMENES</string>
     <string name="no">No</string>
@@ -16,7 +16,7 @@
     <string name="altura">Altura</string>
     <string name="rectangulo">RECTÁNGULO</string>
     <string name="circulo">CÍRCULO</string>
-    <string name="radio">RADIO</string>
+    <string name="radio">Radio</string>
     <string name="cubo">CUBO</string>
     <string name="cono">CONO</string>
     <string name="radio_cono">Radio</string>

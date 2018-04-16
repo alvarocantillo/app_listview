@@ -18,8 +18,8 @@ public class Esfera extends AppCompatActivity {
         txtradioe=findViewById(R.id.txtx_radio_esfera);
         recursos=this.getResources();
     }
-    public double calcular_vesfera(double num){
-        num=(4/3)*(3.14)*(num*num*num);
+    public static double calcular_vesfera(double num){
+        num=(4/3)*((3.14)*(num*num*num));
         return num;
     }
     public void guardar_vesfera(View V){

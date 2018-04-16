@@ -17,7 +17,7 @@ public class Cubo extends AppCompatActivity {
         txtalturac=findViewById(R.id.txt_altura_cubo);
         recursos = this.getResources();
     }
-    public double calcular_acubo(double num){
+    public static double calcular_acubo(double num){
         num=num*num*num;
         return num;
     }

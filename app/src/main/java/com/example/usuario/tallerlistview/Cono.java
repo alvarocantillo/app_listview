@@ -19,7 +19,7 @@ public class Cono extends AppCompatActivity {
         txtradiocono=findViewById(R.id.txt_radio_cono);
         recursos = this.getResources();
     }
-    public double calcular_vcono(double num, double num2){
+    public static double calcular_vcono(double num, double num2){
         double fin=(3.14)*(num*num)*num2;
         return fin;
     }
