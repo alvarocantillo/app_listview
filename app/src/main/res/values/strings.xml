@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">LISTVIEW</string>
-    <string name="opciones">OPERACIONES REALIZADAS</string>
+    <string name="opcion">OPERACIONES REALIZADAS</string>
+    <string name="opciones">OPCIONES</string>
     <string name="areas">AREAS</string>
     <string name="volumenes">VOLÚMENES</string>
     <string name="no">No</string>
@@ -34,7 +35,7 @@
     <string-array name="opciones1">
         <item>@string/areas</item>
         <item>@string/volumenes</item>
-        <item>@string/opciones</item>
+        <item>@string/opcion</item>
     </string-array>
     <string-array name="opciones2">
         <item>@string/cuadrado</item>
