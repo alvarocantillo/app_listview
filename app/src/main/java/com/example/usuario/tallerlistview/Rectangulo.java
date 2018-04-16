@@ -27,10 +27,10 @@ public class Rectangulo extends AppCompatActivity {
         if (validar()==true) {
             double res = calcular_arectangulo(Double.parseDouble(txtbase.getText().toString()), Double.parseDouble(txtaltura.getText().toString()));
             String mos = "" + res;
-            String op = "Area del Rectangulo", dato = "Base: " + txtbase.getText().toString() + "Altura: " + txtaltura.getText().toString();
+            String op = recursos.getString(R.string.area_rec), dato = recursos.getString(R.string.base)+":" + txtbase.getText().toString() + "\n"+recursos.getString(R.string.altura) +":" + txtaltura.getText().toString();
             Operacion o = new Operacion(op, dato, mos);
             o.guardar();
-            Toast.makeText(getApplicationContext(), "El resultado es: " + res, Toast.LENGTH_SHORT).show();
+            Toast.makeText(getApplicationContext(), recursos.getString(R.string.elresul) + res, Toast.LENGTH_SHORT).show();
         }
     }
 

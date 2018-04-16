@@ -27,10 +27,10 @@ public class Triangulo extends AppCompatActivity {
         if (validar()==true) {
             double res = calcular_atriangulo(Double.parseDouble(txtbaset.getText().toString()), Double.parseDouble(txtalturat.getText().toString()));
             String mos = "" + res;
-            String op = "Area del Triangulo", dato = "Base: " + txtbaset.getText().toString() + "Altura: " + txtalturat.getText().toString();
+            String op = recursos.getString(R.string.area_tri), dato = recursos.getString(R.string.base)+":" + txtbaset.getText().toString() + "\n"+recursos.getString(R.string.altura) +":" + txtalturat.getText().toString();
             Operacion o = new Operacion(op, dato, mos);
             o.guardar();
-            Toast.makeText(getApplicationContext(), "El resultado es: " + res, Toast.LENGTH_SHORT).show();
+            Toast.makeText(getApplicationContext(), recursos.getString(R.string.elresul) + res, Toast.LENGTH_SHORT).show();
         }
     }
 

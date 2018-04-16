@@ -26,10 +26,10 @@ private Operacion operacion;
         if (validar()==true) {
             double res = calcular_acuadrado(Double.parseDouble(txtladoc.getText().toString()));
             String mos = "" + res;
-            String op = "Area del Cuadrado", dato = "Lado: " + txtladoc.getText().toString();
+            String op=recursos.getString(R.string.area_cua),dato=recursos.getString(R.string.valor_del_lado)+":"+txtladoc.getText().toString();
             Operacion o = new Operacion(op, dato, mos);
             o.guardar();
-            Toast.makeText(getApplicationContext(), "El resultado es: " + res, Toast.LENGTH_SHORT).show();
+            Toast.makeText(getApplicationContext(), recursos.getString(R.string.elresul) + res, Toast.LENGTH_SHORT).show();
         }
     }
 

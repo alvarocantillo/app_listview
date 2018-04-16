@@ -27,7 +27,8 @@ public class Registro extends AppCompatActivity {
             TextView c2 = new TextView(this);
             TextView c3 = new TextView(this);
             TextView c4 = new TextView(this);
-            c1.setText(""+i+1);
+            int j=1+i;
+            c1.setText(""+j);
             c2.setText(operaciones.get(i).getNombre());
             c3.setText(operaciones.get(i).getDatos());
             c4.setText(operaciones.get(i).getResultado());

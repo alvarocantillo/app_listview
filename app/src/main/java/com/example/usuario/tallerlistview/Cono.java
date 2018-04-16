@@ -27,10 +27,10 @@ public class Cono extends AppCompatActivity {
         if (validar()==true){
         double res= calcular_vcono(Double.parseDouble(txtradiocono.getText().toString()),Double.parseDouble(txtalturacono.getText().toString()));
         String mos=""+res;
-        String op="Volumen del Cono",dato="Radio: "+txtradiocono.getText().toString()+"Altura: "+txtalturacono.getText().toString();
+        String op = recursos.getString(R.string.volumen_cono), dato = recursos.getString(R.string.radio_cono)+":" + txtradiocono.getText().toString() + "\n"+recursos.getString(R.string.altura) +":" + txtalturacono.getText().toString();
         Operacion o= new Operacion(op,dato,mos);
         o.guardar();
-        Toast.makeText(getApplicationContext(),"El resultado es: "+res,Toast.LENGTH_SHORT).show();
+            Toast.makeText(getApplicationContext(), recursos.getString(R.string.elresul) + res, Toast.LENGTH_SHORT).show();
         }
     }
 

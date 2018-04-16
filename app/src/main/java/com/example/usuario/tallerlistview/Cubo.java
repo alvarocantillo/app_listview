@@ -25,10 +25,10 @@ public class Cubo extends AppCompatActivity {
         if (validar()==true) {
             double res = calcular_acubo(Double.parseDouble(txtalturac.getText().toString()));
             String mos = "" + res;
-            String op = "Volumen del Cubo", dato = "Altura: " + txtalturac.getText().toString();
+            String op=recursos.getString(R.string.volumen_cubo),dato=recursos.getString(R.string.altura)+":"+txtalturac.getText().toString();
             Operacion o = new Operacion(op, dato, mos);
             o.guardar();
-            Toast.makeText(getApplicationContext(), "El resultado es: " + res, Toast.LENGTH_SHORT).show();
+            Toast.makeText(getApplicationContext(), recursos.getString(R.string.elresul) + res, Toast.LENGTH_SHORT).show();
         }
     }
 

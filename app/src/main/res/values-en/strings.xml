@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LISTVIEW</string>
+    <string name="opcion">OPERATIONS PERFORMED</string>
+    <string name="opciones">OPTIONS</string>
+    <string name="areas">AREAS</string>
+    <string name="volumenes">VOLUMES</string>
+    <string name="no">No</string>
+    <string name="operacion">Operation</string>
+    <string name="datos">Data</string>
+    <string name="resultado">Result</string>
+    <string name="cuadrado">SQUARE</string>
+    <string name="valor_del_lado">Side</string>
+    <string name="calcular">Calculate</string>
+    <string name="borrar">Delete</string>
+    <string name="triangulo">TRIANGLE</string>
+    <string name="base">Base</string>
+    <string name="altura">Height</string>
+    <string name="rectangulo">RECTANGLE</string>
+    <string name="circulo">CIRCLE</string>
+    <string name="radio">Radio</string>
+    <string name="cubo">CUBE</string>
+    <string name="cono">CONE</string>
+    <string name="radio_cono">Radio</string>
+    <string name="altura_cono">Height</string>
+    <string name="radio_cubo">Radio</string>
+    <string name="altura_cubo">Height</string>
+    <string name="esfera">SPHERE</string>
+    <string name="radio_esfera">Radio</string>
+    <string name="altura_esfera">Height</string>
+    <string name="cilindro">CYLINDER</string>
+    <string name="radio_cilindro">Radio</string>
+    <string name="altrura_cilindro">Height</string>
+    <string name="error_1">Enter the data</string>
+    <string name="error_2">Enter a number greater than zero</string>
+    <string name="volumen_cl">Cylinder volume </string>
+    <string name="volumen_es">Volume of the sphere </string>
+    <string name="volumen_cubo">Cube volume </string>
+    <string name="volumen_cono">Cone volume </string>
+    <string name="area_cua">Square area </string>
+    <string name="area_tri">Triangle area </string>
+    <string name="area_rec">Rectangle area </string>
+    <string name="area_cir">Círcle area </string>
+    <string name="elresul">The result is: </string>
+</resources>

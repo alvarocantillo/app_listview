@@ -26,10 +26,10 @@ private EditText txtradio;
         if (validar()==true){
         double res= calcular_acirculo(Double.parseDouble(txtradio.getText().toString()));
         String mos=""+res;
-        String op="Area del Circulo",dato="Radio: "+txtradio.getText().toString();
+        String op=recursos.getString(R.string.area_cir),dato=recursos.getString(R.string.radio)+":"+txtradio.getText().toString();
         Operacion o= new Operacion(op,dato,mos);
         o.guardar();
-        Toast.makeText(getApplicationContext(),"El resultado es: "+res,Toast.LENGTH_SHORT).show();
+        Toast.makeText(getApplicationContext(), recursos.getString(R.string.elresul) + res, Toast.LENGTH_SHORT).show();
         }
     }
 

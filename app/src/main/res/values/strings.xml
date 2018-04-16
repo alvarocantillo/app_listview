@@ -9,7 +9,7 @@
     <string name="datos">Datos</string>
     <string name="resultado">Resultado</string>
     <string name="cuadrado">CUADRADO</string>
-    <string name="valor_del_lado">Valor del lado</string>
+    <string name="valor_del_lado">Lado</string>
     <string name="calcular">Calcular</string>
     <string name="borrar">Borrar</string>
     <string name="triangulo">TRIÁNGULO</string>
@@ -32,6 +32,15 @@
     <string name="altrura_cilindro">Altura</string>
     <string name="error_1">Ingrese los datos</string>
     <string name="error_2">Ingrese un numero mayor que cero</string>
+    <string name="volumen_cl">Volumen del Cilindro </string>
+    <string name="volumen_es">Volumen de la Esfera </string>
+    <string name="volumen_cubo">Volumen del Cubo </string>
+    <string name="volumen_cono">Volumen del Cono </string>
+    <string name="area_cua">Area del Cuadrado </string>
+    <string name="area_tri">Area del Triangulo </string>
+    <string name="area_rec">Area del Rectángulo </string>
+    <string name="area_cir">Area del Círculo </string>
+    <string name="elresul">El resultado es: </string>
     <string-array name="opciones1">
         <item>@string/areas</item>
         <item>@string/volumenes</item>

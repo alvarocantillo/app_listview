@@ -26,10 +26,10 @@ public class Esfera extends AppCompatActivity {
         if (validar()==true) {
             double res = calcular_vesfera(Double.parseDouble(txtradioe.getText().toString()));
             String mos = "" + res;
-            String op = "Volumen de la Esfera", dato = "Radio: " + txtradioe.getText().toString();
+            String op=recursos.getString(R.string.volumen_es),dato=recursos.getString(R.string.radio)+": "+txtradioe.getText().toString();
             Operacion o = new Operacion(op, dato, mos);
             o.guardar();
-            Toast.makeText(getApplicationContext(), "El resultado es: " + res, Toast.LENGTH_SHORT).show();
+            Toast.makeText(getApplicationContext(), recursos.getString(R.string.elresul) + res, Toast.LENGTH_SHORT).show();
         }
     }
 

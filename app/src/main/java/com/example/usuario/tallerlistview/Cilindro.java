@@ -19,6 +19,7 @@ public class Cilindro extends AppCompatActivity {
         txtalturacl = findViewById(R.id.txt_radio_cilin);
         txtradiocl = findViewById(R.id.txt_altura_cilin);
         recursos = this.getResources();
+
     }
 
     public static double calcular_vcilindro(double num, double num2) {
@@ -30,10 +31,10 @@ public class Cilindro extends AppCompatActivity {
         if (validar()==true){
         double res = calcular_vcilindro(Double.parseDouble(txtradiocl.getText().toString()), Double.parseDouble(txtalturacl.getText().toString()));
         String mos = "" + res;
-        String op = "Volumen del Cilindro", dato = "Radio: " + txtradiocl.getText().toString() + "Altura: " + txtalturacl.getText().toString();
+        String op = recursos.getString(R.string.volumen_cl), dato = recursos.getString(R.string.radio_cilindro)+":" + txtradiocl.getText().toString() +"\n"+ recursos.getString(R.string.altrura_cilindro) +":"+ txtalturacl.getText().toString();
         Operacion o = new Operacion(op, dato, mos);
         o.guardar();
-        Toast.makeText(getApplicationContext(), "El resultado es: " + res, Toast.LENGTH_SHORT).show();
+        Toast.makeText(getApplicationContext(),  recursos.getString(R.string.elresul)+ res, Toast.LENGTH_SHORT).show();
         }
     }
 
